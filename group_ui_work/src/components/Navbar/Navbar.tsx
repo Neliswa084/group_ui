@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Navbar.module.css'
 import icon from '../../assets/ball.png'
+import { Button } from '../Button/Button'
 
 export const Navbar = () => {
   return (
@@ -12,8 +13,7 @@ export const Navbar = () => {
         <a href='/#' className={styles['links']} > Shop Online</a>
         <a href='/#' className={styles['links']} > Find In Store</a>
         <a href='/#' className={styles['links']}>Learn More</a>
-        <button> Subscribe</button>
-
+        <Button text='Subscibe'/>
        </div>
 
     </nav>

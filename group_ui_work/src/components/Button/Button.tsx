@@ -1,4 +1,5 @@
 import React from 'react'
+import button from './Button.module.css'
 
 interface ButtonProps{
     text: string;
@@ -9,9 +10,16 @@ interface ButtonProps{
 
 export const Button: React.FC<ButtonProps> = ({ text, style, className}) => {
   return (
-    <div>
     
-        {text}
-    </div>
+  
+        <button className={`${button.btn} ${className || ""}`} style={style}>
+            {text}
+            </button>
+        
+
+    
+        
+   
+    
   )
 }
