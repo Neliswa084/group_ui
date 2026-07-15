@@ -1,0 +1,39 @@
+nav{
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    display: flex; 
+    gap: 50px;
+    justify-content: space-between;
+    
+    
+    
+}
+.img-icon{
+    width: 60px;
+
+}
+.link{
+    text-align: center;
+    
+}
+.links {
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+    text-decoration: none;
+    margin-right: 70px;
+    gap: 60px;
+    align-items: end;
+    
+}
+
+button{
+    width: 170px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    
+}
