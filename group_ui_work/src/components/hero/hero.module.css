@@ -4,18 +4,23 @@
     gap: 50%;
 }
 .hero-text{
+  margin-top: 250px;
   
 }
 .hero-img{
     width:100px;
     height:100px;
     margin-top: 50px;
+    object-fit: cover;
+    top:40px;
 }
+
 .hero-image{
     background-color: orangered;
     border-radius: 50%;
     width: 900px;
     height: 900px;
+
    
 }
 
