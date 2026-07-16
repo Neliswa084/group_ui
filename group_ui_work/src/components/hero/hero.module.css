@@ -1,5 +1,5 @@
 .hero-container{
-    background-color: pink;
+    background-color: rgb(243, 210, 181);
     display: flex;
     gap: 50%;
 }
@@ -8,18 +8,23 @@
   
 }
 .hero-img{
-    width:100px;
-    height:100px;
+    width:500px;
+    height:500px;
     margin-top: 50px;
-    object-fit: cover;
-    top:40px;
+    transform: rotate(35deg);
+    filter: drop-shadow(-50px 50px 50px black);
+    
+
 }
 
-.hero-image{
+ .hero-image{
     background-color: orangered;
     border-radius: 50%;
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
    
 }

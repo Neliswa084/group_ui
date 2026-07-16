@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../../assets/HeroImage.png'
+import HeroImage from '../../assets/HeroImageR.png'
 import styles from './hero.module.css'
 import { Button } from '../Button/Button'
 
@@ -10,7 +10,7 @@ import { Button } from '../Button/Button'
      
      <div className={styles['hero-text']}>
       
-       <h1 style={{color: 'rgb(7, 58, 7)' , fontSize: '50px'}}> A New Kind of Soda</h1>
+       <h1 style={{color: 'rgb(7, 58, 7)' , fontSize: '50px'}}> A New Kind of Soda™</h1>
         <Button text={'Shop OLIPOP'} />
      </div>
 
