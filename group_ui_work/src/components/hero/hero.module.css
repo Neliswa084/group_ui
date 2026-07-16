@@ -1,6 +1,19 @@
+.hero-container{
+    background-color: pink;
+    display: flex;
+    gap: 50%;
+}
+.hero-text{
+  
+}
 .hero-img{
     width:100px;
     height:100px;
+    margin-top: 20px;
 
-    
+}
+.hero-image{
+    background-color: orangered;
+    border-radius: 60px;
+    width: 40%;
 }
