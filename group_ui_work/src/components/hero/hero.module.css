@@ -9,11 +9,13 @@
 .hero-img{
     width:100px;
     height:100px;
-    margin-top: 20px;
-
+    margin-top: 50px;
 }
 .hero-image{
     background-color: orangered;
-    border-radius: 60px;
-    width: 40%;
+    border-radius: 50%;
+    width: 900px;
+    height: 900px;
+   
 }
+
