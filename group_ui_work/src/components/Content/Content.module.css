@@ -1,0 +1,24 @@
+.container{
+    background-color: white;
+    
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 60px;
+  
+    
+   
+}
+.content{
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 75%;
+    padding: 20px 70px;
+    box-shadow: -10px 10px 60px 10px rgb(124, 121, 121)
+
+
+}

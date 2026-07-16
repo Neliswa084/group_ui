@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { Navbar } from './components/Navbar/Navbar'
 import { Hero } from './components/hero/hero'
+import { Content } from './components/Content/Content'
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
     
     <Navbar/>
     <Hero/>
+    <Content />
 
    
 </>
